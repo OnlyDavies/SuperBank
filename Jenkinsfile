@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Checkout-git"){
             steps{
-                Git poll: true, url = 'git@github.com:OnlyDavies/SuperBank.git'
+                git poll: true, url = 'git@github.com:OnlyDavies/SuperBank.git'
             }
            
         }
