@@ -15,6 +15,12 @@ pipeline {
 
             }
         }
+        stage('Tests') {
+            steps {
+            	sh '''
+            		bash -c "dotnet test BankingTests/BankingTests.csproj"
+                '''
+            }
         stage('Execute') {
             steps {
             	sh '''
