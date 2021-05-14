@@ -14,3 +14,5 @@
 /home/onlydavies/Desarrollo/SuperBank/SuperBank/obj/Debug/net5.0/ref/SuperBank.dll
 /home/onlydavies/Desarrollo/SuperBank/SuperBank/obj/Debug/net5.0/SuperBank.pdb
 /home/onlydavies/Desarrollo/SuperBank/SuperBank/obj/Debug/net5.0/SuperBank.genruntimeconfig.cache
+/home/onlydavies/Desarrollo/SuperBank/SuperBank/bin/Debug/net5.0/Newtonsoft.Json.dll
+/home/onlydavies/Desarrollo/SuperBank/SuperBank/obj/Debug/net5.0/SuperBank.csproj.CopyComplete

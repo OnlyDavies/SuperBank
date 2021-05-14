@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/onlydavies/Desarrollo/SuperBank/SuperBank/SuperBank.csproj",
         "projectName": "SuperBank",
         "projectPath": "/home/onlydavies/Desarrollo/SuperBank/SuperBank/SuperBank.csproj",
-        "packagesPath": "/home/onlydavies/.nuget/packages/",
+        "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/home/onlydavies/Desarrollo/SuperBank/SuperBank/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/onlydavies/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
