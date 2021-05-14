@@ -4,6 +4,7 @@ pipeline {
  stages {
         stage('Checkout-git'){
                steps{
+		cleanWs()
 		git poll: true, url: 'git@github.com:OnlyDavies/SuperBank.git'
                }
         }
@@ -25,7 +26,7 @@ pipeline {
         stage('Execute') {
             steps {
             	sh '''
-            		bash -c "dotnet run --project SuperBank && cleanWs()" 
+            		bash -c "dotnet run --project SuperBank" 
                 '''
             }
         }        
