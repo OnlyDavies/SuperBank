@@ -25,7 +25,7 @@ pipeline {
         stage('Execute') {
             steps {
             	sh '''
-            		bash -c "dotnet run --project SuperBank"
+            		bash -c "dotnet run --project SuperBank && cleanWs()" 
                 '''
             }
         }        
